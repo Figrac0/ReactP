@@ -1,8 +1,76 @@
-# React + Vite
+## 🔖 Список веток и тем
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🟢 Основы хуков и состояние
 
-Currently, two official plugins are available:
+- **usestate-event**  
+  _Калькулятор с использованием useState и обработчиков событий._
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **stateTabs**  
+  _Карточки с переключаемыми табами через useState._
+
+- **reusable-component-lib**  
+  _Переиспользуемая библиотека компонентов (кнопки, секции и др.)._
+
+- **modal-window**  
+  _Модальное окно с динамическими кнопками и состоянием._
+
+---
+
+### 🌍 API и side-effects
+
+- **weather_wiget-useEff**  
+  _Виджет погоды с использованием useEffect и геолокации._
+
+- **exchange-calculator-useeffect**  
+  _Конвертер валют с динамическим вызовом API (useEffect)._
+
+- **currency-exchange-calculator**  
+  _Расширенный калькулятор валют с загрузкой валют, обработкой ошибок и состоянием загрузки._
+
+---
+
+### 🧩 State management
+
+- **variable-vs-useState-vs-useRef**  
+  _Сравнение переменных, useState и useRef + кастомный useFetch._
+
+---
+
+### 🚏 Роутинг
+
+- **react-router**  
+  _Базовая маршрутизация с динамическими параметрами._
+
+- **tailwind**  
+  _Роутинг + стилизация через Tailwind CSS._
+
+- **RouterWDataLoading**  
+  _React Router с загрузкой данных через loader и обработкой ошибок._
+
+- **RouterWithData**  
+  _Loader, useLoaderData, useNavigation и обработка ошибок (errorElement)._
+
+---
+
+### 🔥 Продвинутый state management
+
+- **context-task-list**  
+  _Список задач с приоритетом и сортировкой через Context API._
+
+- **useReducerDate**  
+  _Калькулятор даты с использованием useReducer._
+
+- **voteUpReducer**  
+  _Приложение для голосования с useReducer, загрузкой данных и динамическим добавлением кандидатов._
+
+---
+
+## 📌 Итог
+
+Репозиторий демонстрирует:
+- useState, useEffect, useRef, useReducer
+- Контекст (Context API)
+- React Router (включая loaders и error boundaries)
+- Работа с API и асинхронными запросами
+- Tailwind CSS
+- Архитектуру переиспользуемых компонентов
