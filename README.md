@@ -36,6 +36,16 @@
 
 ---
 
+### ⚙️ Redux
+
+- **classic-redux**
+  _Пример на «старом» Redux: store, actions, reducers, middleware._
+
+- **redux-toolkit**
+  _Современный Redux Toolkit: configureStore, createSlice, createAsyncThunk, RTK Query, dispatch, selectors и т.д._
+
+---
+
 ### 🚏 Роутинг
 
 - **react-router**  
@@ -74,3 +84,4 @@
 - Работа с API и асинхронными запросами
 - Tailwind CSS
 - Архитектуру переиспользуемых компонентов
+- Redux — как классический (store, actions, reducers, middleware), так и современный Redux Toolkit (configureStore, createSlice, createAsyncThunk, RTK Query, dispatch, selectors и др.)
